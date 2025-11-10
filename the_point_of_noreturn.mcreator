@@ -1,17 +1,40 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Eefsgdr",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eefsgdr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_point_of_noreturn/loot_table/blocks/eefsgdr.json",
+          "src/main/resources/assets/the_point_of_noreturn/models/item/eefsgdr.json",
+          "src/main/resources/assets/the_point_of_noreturn/items/eefsgdr.json",
+          "src/main/java/ru/mng/thepointofnoreturn/block/EefsgdrBlock.java",
+          "src/main/resources/assets/the_point_of_noreturn/models/block/eefsgdr.json",
+          "src/main/resources/assets/the_point_of_noreturn/blockstates/eefsgdr.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.the_point_of_noreturn.eefsgdr": "Eefsgdr"
+    }
   },
   "metadata": {
     "files": [
       "src/main/java/ru/mng/thepointofnoreturn/ThePointOfNoreturnMod.java",
+      "src/main/java/ru/mng/thepointofnoreturn/init/ThePointOfNoreturnModTabs.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/resources/pack.mcmeta"
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/ru/mng/thepointofnoreturn/init/ThePointOfNoreturnModBlocks.java",
+      "src/main/java/ru/mng/thepointofnoreturn/init/ThePointOfNoreturnModItems.java"
     ]
   },
   "foldersRoot": {
