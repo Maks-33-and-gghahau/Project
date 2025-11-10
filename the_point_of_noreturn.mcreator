@@ -1,17 +1,40 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Trwa",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trwa",
+      "metadata": {
+        "files": [
+          "src/main/java/ru/mng/thepointofnoreturn/block/TrwaBlock.java",
+          "src/main/resources/assets/the_point_of_noreturn/models/item/trwa.json",
+          "src/main/resources/data/the_point_of_noreturn/loot_table/blocks/trwa.json",
+          "src/main/resources/assets/the_point_of_noreturn/items/trwa.json",
+          "src/main/resources/assets/the_point_of_noreturn/blockstates/trwa.json",
+          "src/main/resources/assets/the_point_of_noreturn/models/block/trwa.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.the_point_of_noreturn.trwa": "Trwa"
+    }
   },
   "metadata": {
     "files": [
       "src/main/java/ru/mng/thepointofnoreturn/ThePointOfNoreturnMod.java",
+      "src/main/java/ru/mng/thepointofnoreturn/init/ThePointOfNoreturnModTabs.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/resources/pack.mcmeta"
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/ru/mng/thepointofnoreturn/init/ThePointOfNoreturnModBlocks.java",
+      "src/main/java/ru/mng/thepointofnoreturn/init/ThePointOfNoreturnModItems.java"
     ]
   },
   "foldersRoot": {
