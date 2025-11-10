@@ -1,8 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "minecraft:block/bamboo_block_top",
-    "particle": "minecraft:block/bamboo_block_top"
-  },
-  "render_type": "cutout"
-}
