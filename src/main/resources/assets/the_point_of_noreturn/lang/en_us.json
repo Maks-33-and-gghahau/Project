@@ -1,1 +1,11 @@
-{}
+{
+  "gui.the_point_of_noreturn.trash_gui.label_musorka": "Мусорка",
+  "gui.the_point_of_noreturn.fridge_gui.label_kholodilnik": "Холодильник",
+  "gui.the_point_of_noreturn.create_gui.label_iashchik": "Ящик",
+  "item.the_point_of_noreturn.trash_block": "Trash Block",
+  "item.the_point_of_noreturn.hemp_fiber": "Hemp Fiber",
+  "item.the_point_of_noreturn.stone": "Stone",
+  "item.the_point_of_noreturn.string": "String",
+  "item.the_point_of_noreturn.rot": "Rot",
+  "item.the_point_of_noreturn.planks": "Planks"
+}

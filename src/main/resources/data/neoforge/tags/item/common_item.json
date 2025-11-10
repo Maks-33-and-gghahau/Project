@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "the_point_of_noreturn:planks",
+    "the_point_of_noreturn:stone",
+    "the_point_of_noreturn:hemp_fiber",
+    "the_point_of_noreturn:string",
+    "the_point_of_noreturn:rot"
+  ]
+}

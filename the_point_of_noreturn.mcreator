@@ -1,22 +1,237 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "TrashGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trash_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/ru/mng/thepointofnoreturn/client/gui/TrashGUIScreen.java",
+          "src/main/java/ru/mng/thepointofnoreturn/world/inventory/TrashGUIMenu.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "FridgeGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fridge_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/ru/mng/thepointofnoreturn/client/gui/FridgeGUIScreen.java",
+          "src/main/java/ru/mng/thepointofnoreturn/world/inventory/FridgeGUIMenu.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "CreateGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "create_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/ru/mng/thepointofnoreturn/client/gui/CreateGUIScreen.java",
+          "src/main/java/ru/mng/thepointofnoreturn/world/inventory/CreateGUIMenu.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "TrashBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trash_block",
+      "metadata": {
+        "files": [
+          "src/main/java/ru/mng/thepointofnoreturn/block/TrashBlockBlock.java",
+          "src/main/resources/assets/the_point_of_noreturn/models/item/trash_block.json",
+          "src/main/resources/data/the_point_of_noreturn/loot_table/blocks/trash_block.json",
+          "src/main/java/ru/mng/thepointofnoreturn/block/entity/TrashBlockBlockEntity.java",
+          "src/main/resources/assets/the_point_of_noreturn/items/trash_block.json",
+          "src/main/resources/assets/the_point_of_noreturn/blockstates/trash_block.json",
+          "src/main/resources/assets/the_point_of_noreturn/models/block/trash_block.json"
+        ]
+      },
+      "path": "~/Block"
+    },
+    {
+      "name": "HempFiber",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hemp_fiber",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_point_of_noreturn/models/item/hemp_fiber.json",
+          "src/main/resources/assets/the_point_of_noreturn/items/hemp_fiber.json",
+          "src/main/java/ru/mng/thepointofnoreturn/item/HempFiberItem.java"
+        ]
+      },
+      "path": "~/Item"
+    },
+    {
+      "name": "Stone",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_point_of_noreturn/items/stone.json",
+          "src/main/java/ru/mng/thepointofnoreturn/item/StoneItem.java",
+          "src/main/resources/assets/the_point_of_noreturn/models/item/stone.json"
+        ]
+      },
+      "path": "~/Item"
+    },
+    {
+      "name": "String",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "string",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_point_of_noreturn/models/item/string.json",
+          "src/main/resources/assets/the_point_of_noreturn/items/string.json",
+          "src/main/java/ru/mng/thepointofnoreturn/item/StringItem.java"
+        ]
+      },
+      "path": "~/Item"
+    },
+    {
+      "name": "Rot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_point_of_noreturn/models/item/rot.json",
+          "src/main/resources/assets/the_point_of_noreturn/items/rot.json",
+          "src/main/java/ru/mng/thepointofnoreturn/item/RotItem.java"
+        ]
+      },
+      "path": "~/Item"
+    },
+    {
+      "name": "Planks",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "planks",
+      "metadata": {
+        "files": [
+          "src/main/java/ru/mng/thepointofnoreturn/item/PlanksItem.java",
+          "src/main/resources/assets/the_point_of_noreturn/models/item/planks.json",
+          "src/main/resources/assets/the_point_of_noreturn/items/planks.json"
+        ]
+      },
+      "path": "~/Item"
+    },
+    {
+      "name": "GenerationLootTrashBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "generation_loot_trash_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/ru/mng/thepointofnoreturn/procedures/GenerationLootTrashBlockProcedure.java"
+        ]
+      },
+      "path": "~/Looting System/Generation"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "ITEMS:neoforge:common_item": [
+      "CUSTOM:HempFiber",
+      "CUSTOM:Stone",
+      "CUSTOM:String",
+      "CUSTOM:Rot",
+      "CUSTOM:Planks"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "gui.the_point_of_noreturn.trash_gui.label_musorka": "Мусорка",
+      "gui.the_point_of_noreturn.fridge_gui.label_kholodilnik": "Холодильник",
+      "gui.the_point_of_noreturn.create_gui.label_iashchik": "Ящик",
+      "item.the_point_of_noreturn.trash_block": "Trash Block",
+      "item.the_point_of_noreturn.hemp_fiber": "Hemp Fiber",
+      "item.the_point_of_noreturn.stone": "Stone",
+      "item.the_point_of_noreturn.string": "String",
+      "item.the_point_of_noreturn.rot": "Rot",
+      "item.the_point_of_noreturn.planks": "Planks"
+    }
   },
   "metadata": {
     "files": [
       "src/main/java/ru/mng/thepointofnoreturn/ThePointOfNoreturnMod.java",
+      "src/main/java/ru/mng/thepointofnoreturn/init/ThePointOfNoreturnModTabs.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/resources/pack.mcmeta"
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/ru/mng/thepointofnoreturn/init/ThePointOfNoreturnModScreens.java",
+      "src/main/java/ru/mng/thepointofnoreturn/network/MenuStateUpdateMessage.java",
+      "src/main/java/ru/mng/thepointofnoreturn/init/ThePointOfNoreturnModMenus.java",
+      "src/main/java/ru/mng/thepointofnoreturn/init/ThePointOfNoreturnModBlocks.java",
+      "src/main/java/ru/mng/thepointofnoreturn/init/ThePointOfNoreturnModBlockEntities.java",
+      "src/main/java/ru/mng/thepointofnoreturn/init/ThePointOfNoreturnModItems.java"
     ]
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "GUI",
+        "children": []
+      },
+      {
+        "name": "Block",
+        "children": []
+      },
+      {
+        "name": "Looting System",
+        "children": [
+          {
+            "name": "Generation",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Item",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "the_point_of_noreturn",
