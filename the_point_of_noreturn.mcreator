@@ -1,34 +1,17 @@
 {
-  "mod_elements": [
-    {
-      "name": "Awesr",
-      "type": "potion",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "awesr",
-      "metadata": {
-        "files": []
-      }
-    }
-  ],
+  "mod_elements": [],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
-    "en_us": {
-      "item.minecraft.potion.effect.awesr": "Potion of Awesr",
-      "item.minecraft.splash_potion.effect.awesr": "Splash Potion of Awesr",
-      "item.minecraft.lingering_potion.effect.awesr": "Lingering Potion of Awesr",
-      "item.minecraft.tipped_arrow.effect.awesr": "Arrow of Awesr"
-    }
+    "en_us": {}
   },
   "metadata": {
     "files": [
       "src/main/java/ru/mng/thepointofnoreturn/ThePointOfNoreturnMod.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/resources/pack.mcmeta",
-      "src/main/java/ru/mng/thepointofnoreturn/init/ThePointOfNoreturnModPotions.java"
+      "src/main/resources/pack.mcmeta"
     ]
   },
   "foldersRoot": {

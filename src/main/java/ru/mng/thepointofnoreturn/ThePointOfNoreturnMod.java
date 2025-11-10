@@ -1,7 +1,5 @@
 package ru.mng.thepointofnoreturn;
 
-import ru.mng.thepointofnoreturn.init.ThePointOfNoreturnModPotions;
-
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
@@ -37,8 +35,6 @@ public class ThePointOfNoreturnMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
-
-		ThePointOfNoreturnModPotions.REGISTRY.register(modEventBus);
 
 		// Start of user code block mod init
 		// End of user code block mod init
