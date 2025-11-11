@@ -4,6 +4,7 @@
 package ru.mng.thepointofnoreturn.init;
 
 import ru.mng.thepointofnoreturn.block.TrashBlockBlock;
+import ru.mng.thepointofnoreturn.block.CartonBoxBlockBlock;
 import ru.mng.thepointofnoreturn.ThePointOfNoreturnMod;
 
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -17,6 +18,7 @@ import java.util.function.Function;
 public class ThePointOfNoreturnModBlocks {
 	public static final DeferredRegister.Blocks REGISTRY = DeferredRegister.createBlocks(ThePointOfNoreturnMod.MODID);
 	public static final DeferredBlock<Block> TRASH_BLOCK = register("trash_block", TrashBlockBlock::new);
+	public static final DeferredBlock<Block> CARTON_BOX_BLOCK = register("carton_box_block", CartonBoxBlockBlock::new);
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

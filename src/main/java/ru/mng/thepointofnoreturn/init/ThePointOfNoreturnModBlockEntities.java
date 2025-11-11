@@ -4,6 +4,7 @@
 package ru.mng.thepointofnoreturn.init;
 
 import ru.mng.thepointofnoreturn.block.entity.TrashBlockBlockEntity;
+import ru.mng.thepointofnoreturn.block.entity.CartonBoxBlockBlockEntity;
 import ru.mng.thepointofnoreturn.ThePointOfNoreturnMod;
 
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -23,6 +24,7 @@ import net.minecraft.core.registries.BuiltInRegistries;
 public class ThePointOfNoreturnModBlockEntities {
 	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(BuiltInRegistries.BLOCK_ENTITY_TYPE, ThePointOfNoreturnMod.MODID);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<TrashBlockBlockEntity>> TRASH_BLOCK = register("trash_block", ThePointOfNoreturnModBlocks.TRASH_BLOCK, TrashBlockBlockEntity::new);
+	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<CartonBoxBlockBlockEntity>> CARTON_BOX_BLOCK = register("carton_box_block", ThePointOfNoreturnModBlocks.CARTON_BOX_BLOCK, CartonBoxBlockBlockEntity::new);
 
 	// Start of user code block custom block entities
 	// End of user code block custom block entities
@@ -33,5 +35,6 @@ public class ThePointOfNoreturnModBlockEntities {
 	@SubscribeEvent
 	public static void registerCapabilities(RegisterCapabilitiesEvent event) {
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, TRASH_BLOCK.get(), SidedInvWrapper::new);
+		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, CARTON_BOX_BLOCK.get(), SidedInvWrapper::new);
 	}
 }

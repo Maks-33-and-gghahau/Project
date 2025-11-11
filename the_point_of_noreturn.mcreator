@@ -166,6 +166,25 @@
         ]
       },
       "path": "~/Looting System/Generation"
+    },
+    {
+      "name": "CartonBoxBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carton_box_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_point_of_noreturn/models/block/carton_box_block.json",
+          "src/main/resources/assets/the_point_of_noreturn/items/carton_box_block.json",
+          "src/main/java/ru/mng/thepointofnoreturn/block/CartonBoxBlockBlock.java",
+          "src/main/resources/data/the_point_of_noreturn/loot_table/blocks/carton_box_block.json",
+          "src/main/resources/assets/the_point_of_noreturn/models/item/carton_box_block.json",
+          "src/main/resources/assets/the_point_of_noreturn/blockstates/carton_box_block.json",
+          "src/main/java/ru/mng/thepointofnoreturn/block/entity/CartonBoxBlockBlockEntity.java"
+        ]
+      },
+      "path": "~/Block"
     }
   ],
   "variable_elements": [],
@@ -190,7 +209,8 @@
       "item.the_point_of_noreturn.stone": "Stone",
       "item.the_point_of_noreturn.string": "String",
       "item.the_point_of_noreturn.rot": "Rot",
-      "item.the_point_of_noreturn.planks": "Planks"
+      "item.the_point_of_noreturn.planks": "Planks",
+      "item.the_point_of_noreturn.carton_box_block": "Carton Box Block"
     }
   },
   "metadata": {

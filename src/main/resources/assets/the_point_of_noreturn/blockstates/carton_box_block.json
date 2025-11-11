@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "the_point_of_noreturn:block/carton_box_block"
+    },
+    "facing=east": {
+      "model": "the_point_of_noreturn:block/carton_box_block",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "the_point_of_noreturn:block/carton_box_block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "the_point_of_noreturn:block/carton_box_block",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "the_point_of_noreturn:block/carton_box_block",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "the_point_of_noreturn:block/carton_box_block",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_point_of_noreturn:block/cardboard_box_side_plain",
+    "up": "the_point_of_noreturn:block/cardboard_box_top",
+    "north": "the_point_of_noreturn:block/cardboard_box_side",
+    "east": "the_point_of_noreturn:block/cardboard_box_side_storage",
+    "south": "the_point_of_noreturn:block/cardboard_box_side",
+    "west": "the_point_of_noreturn:block/cardboard_box_side_storage",
+    "particle": "the_point_of_noreturn:block/cardboard_box_side_plain"
+  },
+  "render_type": "solid"
+}
