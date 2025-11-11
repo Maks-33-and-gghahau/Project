@@ -23,6 +23,7 @@ public class ThePointOfNoreturnModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 			tabData.accept(ThePointOfNoreturnModBlocks.TRASH_BLOCK.get().asItem());
 			tabData.accept(ThePointOfNoreturnModBlocks.CARTON_BOX_BLOCK.get().asItem());
+			tabData.accept(ThePointOfNoreturnModBlocks.BOX_BLOCK.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(ThePointOfNoreturnModItems.HEMP_FIBER.get());
 			tabData.accept(ThePointOfNoreturnModItems.STONE.get());

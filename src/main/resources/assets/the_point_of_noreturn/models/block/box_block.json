@@ -1,0 +1,9 @@
+{
+  "parent": "the_point_of_noreturn:custom/package",
+  "textures": {
+    "all": "the_point_of_noreturn:block/packages",
+    "particle": "the_point_of_noreturn:block/packages",
+    "0": "the_point_of_noreturn:block/packages"
+  },
+  "render_type": "solid"
+}

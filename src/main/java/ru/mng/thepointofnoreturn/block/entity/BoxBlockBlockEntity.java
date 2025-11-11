@@ -25,11 +25,11 @@ import java.util.stream.IntStream;
 
 import io.netty.buffer.Unpooled;
 
-public class CartonBoxBlockBlockEntity extends RandomizableContainerBlockEntity implements WorldlyContainer {
-	private NonNullList<ItemStack> stacks = NonNullList.withSize(9, ItemStack.EMPTY);
+public class BoxBlockBlockEntity extends RandomizableContainerBlockEntity implements WorldlyContainer {
+	private NonNullList<ItemStack> stacks = NonNullList.withSize(18, ItemStack.EMPTY);
 
-	public CartonBoxBlockBlockEntity(BlockPos position, BlockState state) {
-		super(ThePointOfNoreturnModBlockEntities.CARTON_BOX_BLOCK.get(), position, state);
+	public BoxBlockBlockEntity(BlockPos position, BlockState state) {
+		super(ThePointOfNoreturnModBlockEntities.BOX_BLOCK.get(), position, state);
 	}
 
 	@Override
@@ -73,7 +73,7 @@ public class CartonBoxBlockBlockEntity extends RandomizableContainerBlockEntity 
 
 	@Override
 	public Component getDefaultName() {
-		return Component.literal("carton_box_block");
+		return Component.literal("box_block");
 	}
 
 	@Override
@@ -83,7 +83,7 @@ public class CartonBoxBlockBlockEntity extends RandomizableContainerBlockEntity 
 
 	@Override
 	public Component getDisplayName() {
-		return Component.literal("Carton Box Block");
+		return Component.literal("Box Block");
 	}
 
 	@Override
@@ -113,6 +113,42 @@ public class CartonBoxBlockBlockEntity extends RandomizableContainerBlockEntity 
 
 	@Override
 	public boolean canTakeItemThroughFace(int index, ItemStack itemstack, Direction direction) {
+		if (index == 0)
+			return false;
+		if (index == 1)
+			return false;
+		if (index == 2)
+			return false;
+		if (index == 3)
+			return false;
+		if (index == 4)
+			return false;
+		if (index == 5)
+			return false;
+		if (index == 6)
+			return false;
+		if (index == 7)
+			return false;
+		if (index == 8)
+			return false;
+		if (index == 9)
+			return false;
+		if (index == 10)
+			return false;
+		if (index == 11)
+			return false;
+		if (index == 12)
+			return false;
+		if (index == 13)
+			return false;
+		if (index == 14)
+			return false;
+		if (index == 15)
+			return false;
+		if (index == 16)
+			return false;
+		if (index == 17)
+			return false;
 		return true;
 	}
 }
