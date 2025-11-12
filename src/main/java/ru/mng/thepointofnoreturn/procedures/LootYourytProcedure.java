@@ -20,43 +20,43 @@ public class LootYourytProcedure {
 		double random = 0;
 		ID_slot = 0;
 		random = Mth.nextInt(RandomSource.create(), 1, 100);
-		if (ID_slot <= 70) {
+		if (random <= 70) {
 			if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 				ItemStack _setstack = new ItemStack(Blocks.AIR).copy();
 				_setstack.setCount(1);
 				_itemHandlerModifiable.setStackInSlot(0, _setstack);
 			}
-		} else if (ID_slot <= 85 && ID_slot > 70) {
+		} else if (random <= 85 && random > 70) {
 			if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 				ItemStack _setstack = new ItemStack(Items.IRON_INGOT).copy();
 				_setstack.setCount(1);
 				_itemHandlerModifiable.setStackInSlot(0, _setstack);
 			}
-		} else if (ID_slot <= 90 && ID_slot > 85) {
+		} else if (random <= 90 && random > 85) {
 			if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 				ItemStack _setstack = new ItemStack(Items.DIAMOND).copy();
 				_setstack.setCount(1);
 				_itemHandlerModifiable.setStackInSlot(0, _setstack);
 			}
-		} else if (ID_slot <= 93 && ID_slot > 90) {
+		} else if (random <= 93 && random > 90) {
 			if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 				ItemStack _setstack = new ItemStack(Items.NETHERITE_INGOT).copy();
 				_setstack.setCount(1);
 				_itemHandlerModifiable.setStackInSlot(0, _setstack);
 			}
-		} else if (ID_slot <= 95 && ID_slot > 93) {
+		} else if (random <= 95 && random > 93) {
 			if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 				ItemStack _setstack = new ItemStack(Items.DEBUG_STICK).copy();
 				_setstack.setCount(1);
 				_itemHandlerModifiable.setStackInSlot(0, _setstack);
 			}
-		} else if (ID_slot <= 97 && ID_slot > 95) {
+		} else if (random <= 97 && random > 95) {
 			if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 				ItemStack _setstack = new ItemStack(Blocks.INFESTED_STONE).copy();
 				_setstack.setCount(64);
 				_itemHandlerModifiable.setStackInSlot(0, _setstack);
 			}
-		} else if (ID_slot <= 100 && ID_slot > 97) {
+		} else if (random <= 100 && random > 97) {
 			if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
 				ItemStack _setstack = new ItemStack(ThePointOfNoreturnModBlocks.BLOCK_YORK.get()).copy();
 				_setstack.setCount(1);

@@ -1,0 +1,40 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/empty.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\u0144"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/you_died_ru.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\u1985"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/you_died_en.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\u0143"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/you_died_uk.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\u0145"
+            ]
+        }
+    ]
+}

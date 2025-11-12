@@ -26,7 +26,7 @@ import java.util.stream.IntStream;
 import io.netty.buffer.Unpooled;
 
 public class CartonBoxBlockBlockEntity extends RandomizableContainerBlockEntity implements WorldlyContainer {
-	private NonNullList<ItemStack> stacks = NonNullList.withSize(9, ItemStack.EMPTY);
+	private NonNullList<ItemStack> stacks = NonNullList.withSize(18, ItemStack.EMPTY);
 
 	public CartonBoxBlockBlockEntity(BlockPos position, BlockState state) {
 		super(ThePointOfNoreturnModBlockEntities.CARTON_BOX_BLOCK.get(), position, state);

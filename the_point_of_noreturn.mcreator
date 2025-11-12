@@ -321,6 +321,156 @@
         ]
       },
       "path": "~/New/Block"
+    },
+    {
+      "name": "TomatoSeeds",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tomato_seeds",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_point_of_noreturn/models/item/tomato_seeds.json",
+          "src/main/resources/assets/the_point_of_noreturn/items/tomato_seeds.json",
+          "src/main/java/ru/mng/thepointofnoreturn/item/TomatoSeedsItem.java"
+        ]
+      },
+      "path": "~/Item"
+    },
+    {
+      "name": "Cabbageseeds",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cabbageseeds",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_point_of_noreturn/items/cabbageseeds.json",
+          "src/main/java/ru/mng/thepointofnoreturn/item/CabbageseedsItem.java",
+          "src/main/resources/assets/the_point_of_noreturn/models/item/cabbageseeds.json"
+        ]
+      },
+      "path": "~/Item"
+    },
+    {
+      "name": "Gazeta",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gazeta",
+      "metadata": {
+        "files": [
+          "src/main/java/ru/mng/thepointofnoreturn/item/GazetaItem.java",
+          "src/main/resources/assets/the_point_of_noreturn/models/item/gazeta.json",
+          "src/main/resources/assets/the_point_of_noreturn/items/gazeta.json"
+        ]
+      },
+      "path": "~/Item"
+    },
+    {
+      "name": "WaterBottle",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_bottle",
+      "metadata": {
+        "files": [
+          "src/main/java/ru/mng/thepointofnoreturn/item/WaterBottleItem.java",
+          "src/main/resources/assets/the_point_of_noreturn/items/water_bottle.json",
+          "src/main/resources/assets/the_point_of_noreturn/models/item/water_bottle.json"
+        ]
+      },
+      "path": "~/Item"
+    },
+    {
+      "name": "TomateSoup",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tomate_soup",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_point_of_noreturn/items/tomate_soup.json",
+          "src/main/resources/assets/the_point_of_noreturn/models/item/tomate_soup.json",
+          "src/main/java/ru/mng/thepointofnoreturn/item/TomateSoupItem.java"
+        ]
+      },
+      "path": "~/Item"
+    },
+    {
+      "name": "ZincIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_point_of_noreturn/models/item/zinc_ingot.json",
+          "src/main/resources/assets/the_point_of_noreturn/items/zinc_ingot.json",
+          "src/main/java/ru/mng/thepointofnoreturn/item/ZincIngotItem.java"
+        ]
+      },
+      "path": "~/Item"
+    },
+    {
+      "name": "HempFabric",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hemp_fabric",
+      "metadata": {
+        "files": [
+          "src/main/java/ru/mng/thepointofnoreturn/item/HempFabricItem.java",
+          "src/main/resources/assets/the_point_of_noreturn/models/item/hemp_fabric.json",
+          "src/main/resources/assets/the_point_of_noreturn/items/hemp_fabric.json"
+        ]
+      },
+      "path": "~/Item"
+    },
+    {
+      "name": "MetalNuggetLead",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_nugget_lead",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_point_of_noreturn/models/item/metal_nugget_lead.json",
+          "src/main/resources/assets/the_point_of_noreturn/items/metal_nugget_lead.json",
+          "src/main/java/ru/mng/thepointofnoreturn/item/MetalNuggetLeadItem.java"
+        ]
+      },
+      "path": "~/Item"
+    },
+    {
+      "name": "CopperWire",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_wire",
+      "metadata": {
+        "files": [
+          "src/main/java/ru/mng/thepointofnoreturn/item/CopperWireItem.java",
+          "src/main/resources/assets/the_point_of_noreturn/models/item/copper_wire.json",
+          "src/main/resources/assets/the_point_of_noreturn/items/copper_wire.json"
+        ]
+      },
+      "path": "~/Item"
+    },
+    {
+      "name": "IronWire",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_wire",
+      "metadata": {
+        "files": [
+          "src/main/java/ru/mng/thepointofnoreturn/item/IronWireItem.java",
+          "src/main/resources/assets/the_point_of_noreturn/models/item/iron_wire.json",
+          "src/main/resources/assets/the_point_of_noreturn/items/iron_wire.json"
+        ]
+      },
+      "path": "~/Item"
     }
   ],
   "variable_elements": [],
@@ -332,6 +482,24 @@
       "CUSTOM:String",
       "CUSTOM:Rot",
       "CUSTOM:Planks"
+    ],
+    "ITEMS:neoforge:food": [
+      "CUSTOM:TomateSoup",
+      "CUSTOM:Cabbageseeds",
+      "CUSTOM:TomatoSeeds"
+    ],
+    "ITEMS:neoforge:uncommon_item_metal": [
+      "CUSTOM:ZincIngot",
+      "CUSTOM:MetalNuggetLead"
+    ],
+    "ITEMS:neoforge:uncommon_item": [
+      "CUSTOM:WaterBottle",
+      "CUSTOM:Gazeta",
+      "CUSTOM:HempFabric"
+    ],
+    "ITEMS:neoforge:uncommon_item_material": [
+      "CUSTOM:CopperWire",
+      "CUSTOM:IronWire"
     ]
   },
   "tab_element_order": {},
@@ -351,17 +519,27 @@
       "item.the_point_of_noreturn.box_block": "Box Block",
       "painting.the_point_of_noreturn.painting.author": "gghahau",
       "painting.the_point_of_noreturn.painting.title": "Painting",
-      "item.the_point_of_noreturn.block_york": "Block York"
+      "item.the_point_of_noreturn.block_york": "Block York",
+      "item.the_point_of_noreturn.tomato_seeds": "Tomato Seeds",
+      "item.the_point_of_noreturn.cabbageseeds": "Cabbageseeds",
+      "item.the_point_of_noreturn.gazeta": "Gazeta",
+      "item.the_point_of_noreturn.water_bottle": "Water Bottle",
+      "item.the_point_of_noreturn.tomate_soup": "Tomate Soup",
+      "item.the_point_of_noreturn.zinc_ingot": "Zinc Ingot",
+      "item.the_point_of_noreturn.hemp_fabric": "Hemp Fabric",
+      "item.the_point_of_noreturn.metal_nugget_lead": "Metal Nugget Lead",
+      "item.the_point_of_noreturn.copper_wire": "Copper Wire",
+      "item.the_point_of_noreturn.iron_wire": "Iron Wire"
     }
   },
   "metadata": {
     "files": [
-      "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/java/ru/mng/thepointofnoreturn/init/ThePointOfNoreturnModTabs.java",
       "src/main/java/ru/mng/thepointofnoreturn/ThePointOfNoreturnMod.java",
+      "src/main/java/ru/mng/thepointofnoreturn/init/ThePointOfNoreturnModTabs.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/resources/pack.mcmeta",
-      "src/main/java/ru/mng/thepointofnoreturn/network/MenuStateUpdateMessage.java",
       "src/main/java/ru/mng/thepointofnoreturn/init/ThePointOfNoreturnModScreens.java",
+      "src/main/java/ru/mng/thepointofnoreturn/network/MenuStateUpdateMessage.java",
       "src/main/java/ru/mng/thepointofnoreturn/init/ThePointOfNoreturnModMenus.java",
       "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
       "src/main/java/ru/mng/thepointofnoreturn/init/ThePointOfNoreturnModBlocks.java",
