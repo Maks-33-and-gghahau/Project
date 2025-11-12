@@ -1,6 +1,6 @@
 package ru.mng.thepointofnoreturn.client.gui;
 
-import ru.mng.thepointofnoreturn.world.inventory.TrashGUIMenu;
+import ru.mng.thepointofnoreturn.world.inventory.LootYourMenu;
 import ru.mng.thepointofnoreturn.init.ThePointOfNoreturnModScreens;
 
 import net.minecraft.world.level.Level;
@@ -14,13 +14,13 @@ import net.minecraft.client.gui.GuiGraphics;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 
-public class TrashGUIScreen extends AbstractContainerScreen<TrashGUIMenu> implements ThePointOfNoreturnModScreens.ScreenAccessor {
+public class LootYourScreen extends AbstractContainerScreen<LootYourMenu> implements ThePointOfNoreturnModScreens.ScreenAccessor {
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
 	private boolean menuStateUpdateActive = false;
 
-	public TrashGUIScreen(TrashGUIMenu container, Inventory inventory, Component text) {
+	public LootYourScreen(LootYourMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
 		this.world = container.world;
 		this.x = container.x;
@@ -37,7 +37,7 @@ public class TrashGUIScreen extends AbstractContainerScreen<TrashGUIMenu> implem
 		menuStateUpdateActive = false;
 	}
 
-	private static final ResourceLocation texture = ResourceLocation.parse("the_point_of_noreturn:textures/screens/trash_gui.png");
+	private static final ResourceLocation texture = ResourceLocation.parse("the_point_of_noreturn:textures/screens/loot_your.png");
 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
@@ -65,7 +65,6 @@ public class TrashGUIScreen extends AbstractContainerScreen<TrashGUIMenu> implem
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.the_point_of_noreturn.trash_gui.label_musorka"), 69, 7, -12829636, false);
 	}
 
 	@Override

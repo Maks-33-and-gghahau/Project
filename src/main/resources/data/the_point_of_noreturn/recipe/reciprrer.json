@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 0,
+  "cookingtime": 1,
+  "ingredient": "minecraft:jigsaw",
+  "result": {
+    "id": "the_point_of_noreturn:block_york"
+  }
+}

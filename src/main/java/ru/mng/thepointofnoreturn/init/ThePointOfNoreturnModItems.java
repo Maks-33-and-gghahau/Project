@@ -30,6 +30,7 @@ public class ThePointOfNoreturnModItems {
 	public static final DeferredItem<Item> PLANKS = register("planks", PlanksItem::new);
 	public static final DeferredItem<Item> CARTON_BOX_BLOCK = block(ThePointOfNoreturnModBlocks.CARTON_BOX_BLOCK);
 	public static final DeferredItem<Item> BOX_BLOCK = block(ThePointOfNoreturnModBlocks.BOX_BLOCK);
+	public static final DeferredItem<Item> BLOCK_YORK = block(ThePointOfNoreturnModBlocks.BLOCK_YORK);
 
 	// Start of user code block custom items
 	// End of user code block custom items

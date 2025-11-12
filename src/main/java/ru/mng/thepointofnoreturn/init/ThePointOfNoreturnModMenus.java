@@ -4,6 +4,7 @@
 package ru.mng.thepointofnoreturn.init;
 
 import ru.mng.thepointofnoreturn.world.inventory.TrashGUIMenu;
+import ru.mng.thepointofnoreturn.world.inventory.LootYourMenu;
 import ru.mng.thepointofnoreturn.world.inventory.FridgeGUIMenu;
 import ru.mng.thepointofnoreturn.world.inventory.CreateGUIMenu;
 import ru.mng.thepointofnoreturn.world.inventory.CartonBoxGUIMenu;
@@ -30,6 +31,7 @@ public class ThePointOfNoreturnModMenus {
 	public static final DeferredHolder<MenuType<?>, MenuType<FridgeGUIMenu>> FRIDGE_GUI = REGISTRY.register("fridge_gui", () -> IMenuTypeExtension.create(FridgeGUIMenu::new));
 	public static final DeferredHolder<MenuType<?>, MenuType<CreateGUIMenu>> CREATE_GUI = REGISTRY.register("create_gui", () -> IMenuTypeExtension.create(CreateGUIMenu::new));
 	public static final DeferredHolder<MenuType<?>, MenuType<CartonBoxGUIMenu>> CARTON_BOX_GUI = REGISTRY.register("carton_box_gui", () -> IMenuTypeExtension.create(CartonBoxGUIMenu::new));
+	public static final DeferredHolder<MenuType<?>, MenuType<LootYourMenu>> LOOT_YOUR = REGISTRY.register("loot_your", () -> IMenuTypeExtension.create(LootYourMenu::new));
 
 	public interface MenuAccessor {
 		Map<String, Object> getMenuState();

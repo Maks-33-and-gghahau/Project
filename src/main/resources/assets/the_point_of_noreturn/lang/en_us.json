@@ -10,5 +10,8 @@
   "item.the_point_of_noreturn.planks": "Planks",
   "item.the_point_of_noreturn.carton_box_block": "Carton Box Block",
   "gui.the_point_of_noreturn.carton_box_gui.label_iashchik": "Коробка",
-  "item.the_point_of_noreturn.box_block": "Box Block"
+  "item.the_point_of_noreturn.box_block": "Box Block",
+  "painting.the_point_of_noreturn.painting.author": "gghahau",
+  "painting.the_point_of_noreturn.painting.title": "Painting",
+  "item.the_point_of_noreturn.block_york": "Block York"
 }

@@ -218,6 +218,109 @@
         ]
       },
       "path": "~/Block"
+    },
+    {
+      "name": "Painting",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "painting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_point_of_noreturn/painting_variant/painting.json"
+        ]
+      },
+      "path": "~/New/Block"
+    },
+    {
+      "name": "LootYour",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loot_your",
+      "metadata": {
+        "files": [
+          "src/main/java/ru/mng/thepointofnoreturn/world/inventory/LootYourMenu.java",
+          "src/main/java/ru/mng/thepointofnoreturn/client/gui/LootYourScreen.java"
+        ]
+      },
+      "path": "~/New/Block"
+    },
+    {
+      "name": "BlockYork",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_york",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_point_of_noreturn/models/item/block_york.json",
+          "src/main/resources/assets/the_point_of_noreturn/models/block/block_york.json",
+          "src/main/java/ru/mng/thepointofnoreturn/block/BlockYorkBlock.java",
+          "src/main/resources/assets/the_point_of_noreturn/blockstates/block_york.json",
+          "src/main/resources/assets/the_point_of_noreturn/items/block_york.json",
+          "src/main/resources/data/the_point_of_noreturn/loot_table/blocks/block_york.json"
+        ]
+      },
+      "path": "~/New/Block"
+    },
+    {
+      "name": "LootYouryt",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loot_youryt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/ru/mng/thepointofnoreturn/procedures/LootYourytProcedure.java"
+        ]
+      },
+      "path": "~/New/Block"
+    },
+    {
+      "name": "RecipeRer",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_rer",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_point_of_noreturn/recipe/recipe_rer.json"
+        ]
+      },
+      "path": "~/New/Block"
+    },
+    {
+      "name": "Reciprrer",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reciprrer",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_point_of_noreturn/recipe/reciprrer.json",
+          "src/main/resources/data/the_point_of_noreturn/advancement/recipes/reciprrer.json"
+        ]
+      },
+      "path": "~/New/Block"
     }
   ],
   "variable_elements": [],
@@ -245,18 +348,22 @@
       "item.the_point_of_noreturn.planks": "Planks",
       "item.the_point_of_noreturn.carton_box_block": "Carton Box Block",
       "gui.the_point_of_noreturn.carton_box_gui.label_iashchik": "Коробка",
-      "item.the_point_of_noreturn.box_block": "Box Block"
+      "item.the_point_of_noreturn.box_block": "Box Block",
+      "painting.the_point_of_noreturn.painting.author": "gghahau",
+      "painting.the_point_of_noreturn.painting.title": "Painting",
+      "item.the_point_of_noreturn.block_york": "Block York"
     }
   },
   "metadata": {
     "files": [
-      "src/main/java/ru/mng/thepointofnoreturn/ThePointOfNoreturnMod.java",
-      "src/main/java/ru/mng/thepointofnoreturn/init/ThePointOfNoreturnModTabs.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/ru/mng/thepointofnoreturn/init/ThePointOfNoreturnModTabs.java",
+      "src/main/java/ru/mng/thepointofnoreturn/ThePointOfNoreturnMod.java",
       "src/main/resources/pack.mcmeta",
-      "src/main/java/ru/mng/thepointofnoreturn/init/ThePointOfNoreturnModScreens.java",
       "src/main/java/ru/mng/thepointofnoreturn/network/MenuStateUpdateMessage.java",
+      "src/main/java/ru/mng/thepointofnoreturn/init/ThePointOfNoreturnModScreens.java",
       "src/main/java/ru/mng/thepointofnoreturn/init/ThePointOfNoreturnModMenus.java",
+      "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
       "src/main/java/ru/mng/thepointofnoreturn/init/ThePointOfNoreturnModBlocks.java",
       "src/main/java/ru/mng/thepointofnoreturn/init/ThePointOfNoreturnModBlockEntities.java",
       "src/main/java/ru/mng/thepointofnoreturn/init/ThePointOfNoreturnModItems.java"
@@ -285,6 +392,15 @@
       {
         "name": "Item",
         "children": []
+      },
+      {
+        "name": "New",
+        "children": [
+          {
+            "name": "Block",
+            "children": []
+          }
+        ]
       }
     ]
   },

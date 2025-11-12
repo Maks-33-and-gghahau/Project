@@ -1,0 +1,11 @@
+{
+  "asset_id": "the_point_of_noreturn:painting",
+  "height": 2,
+  "width": 2,
+  "title": {
+    "translate": "painting.the_point_of_noreturn.painting.title"
+  },
+  "author": {
+    "translate": "painting.the_point_of_noreturn.painting.author"
+  }
+}
