@@ -28,6 +28,10 @@ public class ThePointOfNoreturnModTabs {
 			tabData.accept(ThePointOfNoreturnModItems.HEMP_FIBER.get());
 			tabData.accept(ThePointOfNoreturnModItems.STONE.get());
 			tabData.accept(ThePointOfNoreturnModItems.PLANKS.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+			tabData.accept(ThePointOfNoreturnModItems.BAT.get());
+			tabData.accept(ThePointOfNoreturnModItems.BAT_SPICES.get());
+			tabData.accept(ThePointOfNoreturnModItems.IRON_KNIFE.get());
 		}
 	}
 }

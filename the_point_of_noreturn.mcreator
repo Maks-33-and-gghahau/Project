@@ -471,6 +471,351 @@
         ]
       },
       "path": "~/Item"
+    },
+    {
+      "name": "Antena",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antena",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_point_of_noreturn/items/antena.json",
+          "src/main/java/ru/mng/thepointofnoreturn/item/AntenaItem.java",
+          "src/main/resources/assets/the_point_of_noreturn/models/item/antena.json"
+        ]
+      },
+      "path": "~/Item"
+    },
+    {
+      "name": "BunkerComponent",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bunker_component",
+      "metadata": {
+        "files": [
+          "src/main/java/ru/mng/thepointofnoreturn/item/BunkerComponentItem.java",
+          "src/main/resources/assets/the_point_of_noreturn/models/item/bunker_component.json",
+          "src/main/resources/assets/the_point_of_noreturn/items/bunker_component.json"
+        ]
+      },
+      "path": "~/Item"
+    },
+    {
+      "name": "Can",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "can",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_point_of_noreturn/models/item/can.json",
+          "src/main/resources/assets/the_point_of_noreturn/items/can.json",
+          "src/main/java/ru/mng/thepointofnoreturn/item/CanItem.java"
+        ]
+      },
+      "path": "~/Item"
+    },
+    {
+      "name": "CopperSpiral",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_spiral",
+      "metadata": {
+        "files": [
+          "src/main/java/ru/mng/thepointofnoreturn/item/CopperSpiralItem.java",
+          "src/main/resources/assets/the_point_of_noreturn/models/item/copper_spiral.json",
+          "src/main/resources/assets/the_point_of_noreturn/items/copper_spiral.json"
+        ]
+      },
+      "path": "~/Item"
+    },
+    {
+      "name": "ElectronTube",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electron_tube",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_point_of_noreturn/models/item/electron_tube.json",
+          "src/main/java/ru/mng/thepointofnoreturn/item/ElectronTubeItem.java",
+          "src/main/resources/assets/the_point_of_noreturn/items/electron_tube.json"
+        ]
+      },
+      "path": "~/Item"
+    },
+    {
+      "name": "ExperienceNugget",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "experience_nugget",
+      "metadata": {
+        "files": [
+          "src/main/java/ru/mng/thepointofnoreturn/item/ExperienceNuggetItem.java",
+          "src/main/resources/assets/the_point_of_noreturn/models/item/experience_nugget.json",
+          "src/main/resources/assets/the_point_of_noreturn/items/experience_nugget.json"
+        ]
+      },
+      "path": "~/Item"
+    },
+    {
+      "name": "Filter",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "filter",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_point_of_noreturn/models/item/filter.json",
+          "src/main/resources/assets/the_point_of_noreturn/items/filter.json",
+          "src/main/java/ru/mng/thepointofnoreturn/item/FilterItem.java"
+        ]
+      },
+      "path": "~/Item"
+    },
+    {
+      "name": "Frying",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frying",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_point_of_noreturn/models/item/frying.json",
+          "src/main/java/ru/mng/thepointofnoreturn/item/FryingItem.java",
+          "src/main/resources/assets/the_point_of_noreturn/items/frying.json"
+        ]
+      },
+      "path": "~/Item"
+    },
+    {
+      "name": "Fuel",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuel",
+      "metadata": {
+        "files": [
+          "src/main/java/ru/mng/thepointofnoreturn/item/FuelItem.java",
+          "src/main/resources/assets/the_point_of_noreturn/items/fuel.json",
+          "src/main/resources/assets/the_point_of_noreturn/models/item/fuel.json"
+        ]
+      },
+      "path": "~/Item"
+    },
+    {
+      "name": "Googles",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "googles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_point_of_noreturn/items/googles.json",
+          "src/main/java/ru/mng/thepointofnoreturn/item/GooglesItem.java",
+          "src/main/resources/assets/the_point_of_noreturn/models/item/googles.json"
+        ]
+      },
+      "path": "~/Item"
+    },
+    {
+      "name": "Bat",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bat",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_point_of_noreturn/models/item/bat.json",
+          "src/main/resources/assets/the_point_of_noreturn/items/bat.json",
+          "src/main/java/ru/mng/thepointofnoreturn/item/BatItem.java"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "Battery",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "battery",
+      "metadata": {
+        "files": [
+          "src/main/java/ru/mng/thepointofnoreturn/item/BatteryItem.java",
+          "src/main/resources/assets/the_point_of_noreturn/items/battery.json",
+          "src/main/resources/assets/the_point_of_noreturn/models/item/battery.json"
+        ]
+      },
+      "path": "~/Item"
+    },
+    {
+      "name": "BatSpices",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bat_spices",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_point_of_noreturn/items/bat_spices.json",
+          "src/main/resources/assets/the_point_of_noreturn/models/item/bat_spices.json",
+          "src/main/java/ru/mng/thepointofnoreturn/item/BatSpicesItem.java"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "Cabbage",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cabbage",
+      "metadata": {
+        "files": [
+          "src/main/java/ru/mng/thepointofnoreturn/item/CabbageItem.java",
+          "src/main/resources/assets/the_point_of_noreturn/models/item/cabbage.json",
+          "src/main/resources/assets/the_point_of_noreturn/items/cabbage.json"
+        ]
+      },
+      "path": "~/Food"
+    },
+    {
+      "name": "CabbageLeaf",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cabbage_leaf",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_point_of_noreturn/models/item/cabbage_leaf.json",
+          "src/main/java/ru/mng/thepointofnoreturn/item/CabbageLeafItem.java",
+          "src/main/resources/assets/the_point_of_noreturn/items/cabbage_leaf.json"
+        ]
+      },
+      "path": "~/Food"
+    },
+    {
+      "name": "CabbageRolls",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cabbage_rolls",
+      "metadata": {
+        "files": [
+          "src/main/java/ru/mng/thepointofnoreturn/item/CabbageRollsItem.java",
+          "src/main/resources/assets/the_point_of_noreturn/items/cabbage_rolls.json",
+          "src/main/resources/assets/the_point_of_noreturn/models/item/cabbage_rolls.json"
+        ]
+      },
+      "path": "~/Food"
+    },
+    {
+      "name": "CoffeeBean",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_bean",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_point_of_noreturn/items/coffee_bean.json",
+          "src/main/resources/assets/the_point_of_noreturn/models/item/coffee_bean.json",
+          "src/main/java/ru/mng/thepointofnoreturn/item/CoffeeBeanItem.java"
+        ]
+      },
+      "path": "~/Item"
+    },
+    {
+      "name": "CoockedRice",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coocked_rice",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_point_of_noreturn/items/coocked_rice.json",
+          "src/main/java/ru/mng/thepointofnoreturn/item/CoockedRiceItem.java",
+          "src/main/resources/assets/the_point_of_noreturn/models/item/coocked_rice.json"
+        ]
+      },
+      "path": "~/Food"
+    },
+    {
+      "name": "FriedEgg",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fried_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_point_of_noreturn/models/item/fried_egg.json",
+          "src/main/resources/assets/the_point_of_noreturn/items/fried_egg.json",
+          "src/main/java/ru/mng/thepointofnoreturn/item/FriedEggItem.java"
+        ]
+      },
+      "path": "~/Food"
+    },
+    {
+      "name": "FriedRice",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fried_rice",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_point_of_noreturn/models/item/fried_rice.json",
+          "src/main/resources/assets/the_point_of_noreturn/items/fried_rice.json",
+          "src/main/java/ru/mng/thepointofnoreturn/item/FriedRiceItem.java"
+        ]
+      },
+      "path": "~/Food"
+    },
+    {
+      "name": "IronKnife",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_knife",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_point_of_noreturn/models/item/iron_knife.json",
+          "src/main/java/ru/mng/thepointofnoreturn/item/IronKnifeItem.java",
+          "src/main/resources/assets/the_point_of_noreturn/items/iron_knife.json"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "Latchkey",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "latchkey",
+      "metadata": {
+        "files": [
+          "src/main/java/ru/mng/thepointofnoreturn/item/LatchkeyItem.java",
+          "src/main/resources/assets/the_point_of_noreturn/items/latchkey.json",
+          "src/main/resources/assets/the_point_of_noreturn/models/item/latchkey.json"
+        ]
+      },
+      "path": "~/Item"
+    },
+    {
+      "name": "MaterialComponentElectronic",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "material_component_electronic",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_point_of_noreturn/items/material_component_electronic.json",
+          "src/main/resources/assets/the_point_of_noreturn/models/item/material_component_electronic.json",
+          "src/main/java/ru/mng/thepointofnoreturn/item/MaterialComponentElectronicItem.java"
+        ]
+      },
+      "path": "~/Item"
     }
   ],
   "variable_elements": [],
@@ -500,6 +845,11 @@
     "ITEMS:neoforge:uncommon_item_material": [
       "CUSTOM:CopperWire",
       "CUSTOM:IronWire"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:IronKnife",
+      "~CUSTOM:BatSpices",
+      "~CUSTOM:Bat"
     ]
   },
   "tab_element_order": {},
@@ -529,17 +879,40 @@
       "item.the_point_of_noreturn.hemp_fabric": "Hemp Fabric",
       "item.the_point_of_noreturn.metal_nugget_lead": "Metal Nugget Lead",
       "item.the_point_of_noreturn.copper_wire": "Copper Wire",
-      "item.the_point_of_noreturn.iron_wire": "Iron Wire"
+      "item.the_point_of_noreturn.iron_wire": "Iron Wire",
+      "item.the_point_of_noreturn.antena": "Antena",
+      "item.the_point_of_noreturn.bunker_component": "Bunker Component",
+      "item.the_point_of_noreturn.can": "Can",
+      "item.the_point_of_noreturn.copper_spiral": "Copper Spiral",
+      "item.the_point_of_noreturn.electron_tube": "Electron Tube",
+      "item.the_point_of_noreturn.experience_nugget": "Experience Nugget",
+      "item.the_point_of_noreturn.filter": "Filter",
+      "item.the_point_of_noreturn.frying": "Frying",
+      "item.the_point_of_noreturn.fuel": "Fuel",
+      "item.the_point_of_noreturn.googles": "Googles",
+      "item.the_point_of_noreturn.bat": "Bat",
+      "item.the_point_of_noreturn.battery": "Battery",
+      "item.the_point_of_noreturn.bat_spices": "Bat Spices",
+      "item.the_point_of_noreturn.cabbage": "Cabbage",
+      "item.the_point_of_noreturn.cabbage_leaf": "Cabbage Leaf",
+      "item.the_point_of_noreturn.cabbage_rolls": "Cabbage Rolls",
+      "item.the_point_of_noreturn.coffee_bean": "Coffee Bean",
+      "item.the_point_of_noreturn.coocked_rice": "Coocked Rice",
+      "item.the_point_of_noreturn.fried_egg": "Fried Egg",
+      "item.the_point_of_noreturn.fried_rice": "Fried Rice",
+      "item.the_point_of_noreturn.iron_knife": "Iron Knife",
+      "item.the_point_of_noreturn.latchkey": "Latchkey",
+      "item.the_point_of_noreturn.material_component_electronic": "Material Component Electronic"
     }
   },
   "metadata": {
     "files": [
-      "src/main/java/ru/mng/thepointofnoreturn/ThePointOfNoreturnMod.java",
-      "src/main/java/ru/mng/thepointofnoreturn/init/ThePointOfNoreturnModTabs.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/ru/mng/thepointofnoreturn/init/ThePointOfNoreturnModTabs.java",
+      "src/main/java/ru/mng/thepointofnoreturn/ThePointOfNoreturnMod.java",
       "src/main/resources/pack.mcmeta",
-      "src/main/java/ru/mng/thepointofnoreturn/init/ThePointOfNoreturnModScreens.java",
       "src/main/java/ru/mng/thepointofnoreturn/network/MenuStateUpdateMessage.java",
+      "src/main/java/ru/mng/thepointofnoreturn/init/ThePointOfNoreturnModScreens.java",
       "src/main/java/ru/mng/thepointofnoreturn/init/ThePointOfNoreturnModMenus.java",
       "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
       "src/main/java/ru/mng/thepointofnoreturn/init/ThePointOfNoreturnModBlocks.java",
@@ -579,6 +952,14 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "Tools",
+        "children": []
+      },
+      {
+        "name": "Food",
+        "children": []
       }
     ]
   },
