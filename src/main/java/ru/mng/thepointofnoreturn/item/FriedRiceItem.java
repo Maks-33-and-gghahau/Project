@@ -1,10 +1,11 @@
 package ru.mng.thepointofnoreturn.item;
 
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.food.FoodProperties;
 
 public class FriedRiceItem extends Item {
 	public FriedRiceItem(Item.Properties properties) {
-		super(properties.food((new FoodProperties.Builder()).nutrition(6).saturationModifier(0.4f).build()));
+		super(properties.food((new FoodProperties.Builder()).nutrition(6).saturationModifier(0.4f).build()).usingConvertsTo(Items.BOWL));
 	}
 }

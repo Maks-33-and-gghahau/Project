@@ -1,6 +1,6 @@
 package ru.mng.thepointofnoreturn.block.entity;
 
-import ru.mng.thepointofnoreturn.world.inventory.CartonBoxGUIMenu;
+import ru.mng.thepointofnoreturn.world.inventory.CreateGUIMenu;
 import ru.mng.thepointofnoreturn.init.ThePointOfNoreturnModBlockEntities;
 
 import net.minecraft.world.level.block.state.BlockState;
@@ -78,7 +78,7 @@ public class BoxBlockBlockEntity extends RandomizableContainerBlockEntity implem
 
 	@Override
 	public AbstractContainerMenu createMenu(int id, Inventory inventory) {
-		return new CartonBoxGUIMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(this.worldPosition));
+		return new CreateGUIMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(this.worldPosition));
 	}
 
 	@Override

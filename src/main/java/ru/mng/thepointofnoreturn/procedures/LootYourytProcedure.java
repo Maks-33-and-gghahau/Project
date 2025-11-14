@@ -18,7 +18,6 @@ public class LootYourytProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		double ID_slot = 0;
 		double random = 0;
-		ID_slot = 0;
 		random = Mth.nextInt(RandomSource.create(), 1, 100);
 		if (random <= 70) {
 			if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {

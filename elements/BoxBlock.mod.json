@@ -116,7 +116,7 @@
       "fixedValue": 7.0
     },
     "hasInventory": true,
-    "guiBoundTo": "CartonBoxGUI",
+    "guiBoundTo": "CreateGUI",
     "openGUIOnRightClick": true,
     "inventorySize": 18,
     "inventoryStackSize": 99,
