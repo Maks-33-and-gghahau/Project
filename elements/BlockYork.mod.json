@@ -111,7 +111,7 @@
     "vibrationSensitivityRadius": {
       "fixedValue": 7.0
     },
-    "hasInventory": false,
+    "hasInventory": true,
     "guiBoundTo": "LootYour",
     "openGUIOnRightClick": true,
     "inventorySize": 1,

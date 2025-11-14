@@ -254,12 +254,13 @@
       "registry_name": "block_york",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_point_of_noreturn/models/item/block_york.json",
-          "src/main/resources/assets/the_point_of_noreturn/models/block/block_york.json",
-          "src/main/java/ru/mng/thepointofnoreturn/block/BlockYorkBlock.java",
-          "src/main/resources/assets/the_point_of_noreturn/blockstates/block_york.json",
           "src/main/resources/assets/the_point_of_noreturn/items/block_york.json",
-          "src/main/resources/data/the_point_of_noreturn/loot_table/blocks/block_york.json"
+          "src/main/resources/assets/the_point_of_noreturn/models/block/block_york.json",
+          "src/main/resources/data/the_point_of_noreturn/loot_table/blocks/block_york.json",
+          "src/main/java/ru/mng/thepointofnoreturn/block/entity/BlockYorkBlockEntity.java",
+          "src/main/java/ru/mng/thepointofnoreturn/block/BlockYorkBlock.java",
+          "src/main/resources/assets/the_point_of_noreturn/models/item/block_york.json",
+          "src/main/resources/assets/the_point_of_noreturn/blockstates/block_york.json"
         ]
       },
       "path": "~/New/Block"
