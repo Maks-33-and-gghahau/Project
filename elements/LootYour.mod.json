@@ -30,7 +30,7 @@
         }
       }
     ],
-    "onTick": {
+    "onOpen": {
       "name": "LootYouryt"
     },
     "gridSettings": {

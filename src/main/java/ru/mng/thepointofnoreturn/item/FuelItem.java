@@ -4,6 +4,6 @@ import net.minecraft.world.item.Item;
 
 public class FuelItem extends Item {
 	public FuelItem(Item.Properties properties) {
-		super(properties);
+		super(properties.stacksTo(1));
 	}
 }

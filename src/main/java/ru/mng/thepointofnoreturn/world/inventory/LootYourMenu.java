@@ -8,10 +8,7 @@ import net.neoforged.neoforge.items.SlotItemHandler;
 import net.neoforged.neoforge.items.ItemStackHandler;
 import net.neoforged.neoforge.items.IItemHandlerModifiable;
 import net.neoforged.neoforge.items.IItemHandler;
-import net.neoforged.neoforge.event.tick.PlayerTickEvent;
 import net.neoforged.neoforge.capabilities.Capabilities;
-import net.neoforged.fml.common.EventBusSubscriber;
-import net.neoforged.bus.api.SubscribeEvent;
 
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.entity.BaseContainerBlockEntity;
@@ -32,7 +29,6 @@ import java.util.Map;
 import java.util.HashMap;
 import java.util.Collections;
 
-@EventBusSubscriber
 public class LootYourMenu extends AbstractContainerMenu implements ThePointOfNoreturnModMenus.MenuAccessor {
 	public final Map<String, Object> menuState = new HashMap<>() {
 		@Override
@@ -104,6 +100,7 @@ public class LootYourMenu extends AbstractContainerMenu implements ThePointOfNor
 				this.addSlot(new Slot(inv, sj + (si + 1) * 9, 0 + 8 + sj * 18, 0 + 84 + si * 18));
 		for (int si = 0; si < 9; ++si)
 			this.addSlot(new Slot(inv, si, 0 + 8 + si * 18, 0 + 142));
+		LootYourytProcedure.execute(world, x, y, z);
 	}
 
 	@Override
@@ -240,17 +237,5 @@ public class LootYourMenu extends AbstractContainerMenu implements ThePointOfNor
 	@Override
 	public Map<String, Object> getMenuState() {
 		return menuState;
-	}
-
-	@SubscribeEvent
-	public static void onPlayerTick(PlayerTickEvent.Post event) {
-		Player entity = event.getEntity();
-		if (entity.containerMenu instanceof LootYourMenu menu) {
-			Level world = menu.world;
-			double x = menu.x;
-			double y = menu.y;
-			double z = menu.z;
-			LootYourytProcedure.execute(world, x, y, z);
-		}
 	}
 }

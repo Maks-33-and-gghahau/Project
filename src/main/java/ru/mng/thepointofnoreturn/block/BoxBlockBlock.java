@@ -1,6 +1,6 @@
 package ru.mng.thepointofnoreturn.block;
 
-import ru.mng.thepointofnoreturn.world.inventory.CartonBoxGUIMenu;
+import ru.mng.thepointofnoreturn.world.inventory.CreateGUIMenu;
 import ru.mng.thepointofnoreturn.block.entity.BoxBlockBlockEntity;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
@@ -65,7 +65,7 @@ public class BoxBlockBlock extends Block implements EntityBlock {
 
 				@Override
 				public AbstractContainerMenu createMenu(int id, Inventory inventory, Player player) {
-					return new CartonBoxGUIMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(pos));
+					return new CreateGUIMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(pos));
 				}
 			}, pos);
 		}

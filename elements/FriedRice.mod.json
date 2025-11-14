@@ -44,7 +44,7 @@
     "nutritionalValue": 6,
     "saturation": 0.4,
     "eatResultItem": {
-      "value": ""
+      "value": "Items.BOWL"
     },
     "isMeat": false,
     "isAlwaysEdible": false,
