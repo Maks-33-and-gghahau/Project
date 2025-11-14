@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "the_point_of_noreturn:iron_knife"
+    "the_point_of_noreturn:iron_knife",
+    "the_point_of_noreturn:bat_spices",
+    "the_point_of_noreturn:bat"
   ]
 }
