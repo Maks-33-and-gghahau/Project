@@ -9,7 +9,6 @@ import ru.mng.thepointofnoreturn.item.TomatoSeedsItem;
 import ru.mng.thepointofnoreturn.item.TomateSoupItem;
 import ru.mng.thepointofnoreturn.item.StringItem;
 import ru.mng.thepointofnoreturn.item.StoneItem;
-import ru.mng.thepointofnoreturn.item.SteelComponentItem;
 import ru.mng.thepointofnoreturn.item.RotItem;
 import ru.mng.thepointofnoreturn.item.PlanksItem;
 import ru.mng.thepointofnoreturn.item.MetalNuggetLeadItem;
@@ -98,7 +97,6 @@ public class ThePointOfNoreturnModItems {
 	public static final DeferredItem<Item> IRON_KNIFE = register("iron_knife", IronKnifeItem::new);
 	public static final DeferredItem<Item> LATCHKEY = register("latchkey", LatchkeyItem::new);
 	public static final DeferredItem<Item> MATERIAL_COMPONENT_ELECTRONIC = register("material_component_electronic", MaterialComponentElectronicItem::new);
-	public static final DeferredItem<Item> STEEL_COMPONENT = register("steel_component", SteelComponentItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items
