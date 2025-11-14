@@ -2,6 +2,11 @@
   "replace": false,
   "values": [
     "the_point_of_noreturn:zinc_ingot",
-    "the_point_of_noreturn:metal_nugget_lead"
+    "minecraft:iron_ingot",
+    "the_point_of_noreturn:nickel_ingot",
+    "minecraft:copper_ingot",
+    "the_point_of_noreturn:silver_ingot",
+    "the_point_of_noreturn:metal_nugget_lead",
+    "the_point_of_noreturn:constantan_ingot"
   ]
 }

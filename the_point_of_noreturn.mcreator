@@ -411,7 +411,7 @@
           "src/main/java/ru/mng/thepointofnoreturn/item/ZincIngotItem.java"
         ]
       },
-      "path": "~/Item"
+      "path": "~/Item/Material/Metal"
     },
     {
       "name": "HempFabric",
@@ -486,7 +486,7 @@
           "src/main/resources/assets/the_point_of_noreturn/items/antena.json"
         ]
       },
-      "path": "~/Item"
+      "path": "~/Item/Material"
     },
     {
       "name": "BunkerComponent",
@@ -832,6 +832,111 @@
         ]
       },
       "path": "~/Item/Material"
+    },
+    {
+      "name": "SteelIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/ru/mng/thepointofnoreturn/item/SteelIngotItem.java",
+          "src/main/resources/assets/the_point_of_noreturn/items/steel_ingot.json",
+          "src/main/resources/assets/the_point_of_noreturn/models/item/steel_ingot.json"
+        ]
+      },
+      "path": "~/Item/Material/Metal"
+    },
+    {
+      "name": "SilverIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/ru/mng/thepointofnoreturn/item/SilverIngotItem.java",
+          "src/main/resources/assets/the_point_of_noreturn/items/silver_ingot.json",
+          "src/main/resources/assets/the_point_of_noreturn/models/item/silver_ingot.json"
+        ]
+      },
+      "path": "~/Item/Material/Metal"
+    },
+    {
+      "name": "BronzeIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_point_of_noreturn/items/bronze_ingot.json",
+          "src/main/resources/assets/the_point_of_noreturn/models/item/bronze_ingot.json",
+          "src/main/java/ru/mng/thepointofnoreturn/item/BronzeIngotItem.java"
+        ]
+      },
+      "path": "~/Item/Material/Metal"
+    },
+    {
+      "name": "ConstantanIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "constantan_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/ru/mng/thepointofnoreturn/item/ConstantanIngotItem.java",
+          "src/main/resources/assets/the_point_of_noreturn/models/item/constantan_ingot.json",
+          "src/main/resources/assets/the_point_of_noreturn/items/constantan_ingot.json"
+        ]
+      },
+      "path": "~/Item/Material/Metal"
+    },
+    {
+      "name": "ElectrumIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrum_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_point_of_noreturn/models/item/electrum_ingot.json",
+          "src/main/java/ru/mng/thepointofnoreturn/item/ElectrumIngotItem.java",
+          "src/main/resources/assets/the_point_of_noreturn/items/electrum_ingot.json"
+        ]
+      },
+      "path": "~/Item/Material/Metal"
+    },
+    {
+      "name": "LeadIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/ru/mng/thepointofnoreturn/item/LeadIngotItem.java",
+          "src/main/resources/assets/the_point_of_noreturn/models/item/lead_ingot.json",
+          "src/main/resources/assets/the_point_of_noreturn/items/lead_ingot.json"
+        ]
+      },
+      "path": "~/Item/Material/Metal"
+    },
+    {
+      "name": "NickelIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nickel_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_point_of_noreturn/items/nickel_ingot.json",
+          "src/main/resources/assets/the_point_of_noreturn/models/item/nickel_ingot.json",
+          "src/main/java/ru/mng/thepointofnoreturn/item/NickelIngotItem.java"
+        ]
+      },
+      "path": "~/Item/Material/Metal"
     }
   ],
   "variable_elements": [],
@@ -851,7 +956,12 @@
     ],
     "ITEMS:neoforge:uncommon_item_metal": [
       "CUSTOM:ZincIngot",
-      "CUSTOM:MetalNuggetLead"
+      "CUSTOM:MetalNuggetLead",
+      "Items.COPPER_INGOT",
+      "Items.IRON_INGOT",
+      "CUSTOM:ConstantanIngot",
+      "CUSTOM:NickelIngot",
+      "CUSTOM:SilverIngot"
     ],
     "ITEMS:neoforge:uncommon_item": [
       "CUSTOM:WaterBottle",
@@ -921,7 +1031,14 @@
       "item.the_point_of_noreturn.iron_knife": "Iron Knife",
       "item.the_point_of_noreturn.latchkey": "Latchkey",
       "item.the_point_of_noreturn.material_component_electronic": "Material Component Electronic",
-      "item.the_point_of_noreturn.steel_component": "Steel Component"
+      "item.the_point_of_noreturn.steel_component": "Steel Component",
+      "item.the_point_of_noreturn.steel_ingot": "Steel Ingot",
+      "item.the_point_of_noreturn.silver_ingot": "Silver Ingot",
+      "item.the_point_of_noreturn.bronze_ingot": "Bronze Ingot",
+      "item.the_point_of_noreturn.constantan_ingot": "Constantan Ingot",
+      "item.the_point_of_noreturn.electrum_ingot": "Electrum Ingot",
+      "item.the_point_of_noreturn.lead_ingot": "Lead Ingot",
+      "item.the_point_of_noreturn.nickel_ingot": "Nickel Ingot"
     }
   },
   "metadata": {
@@ -972,7 +1089,12 @@
           },
           {
             "name": "Material",
-            "children": []
+            "children": [
+              {
+                "name": "Metal",
+                "children": []
+              }
+            ]
           }
         ]
       },
