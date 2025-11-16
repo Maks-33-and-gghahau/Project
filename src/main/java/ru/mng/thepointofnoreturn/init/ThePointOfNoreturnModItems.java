@@ -4,21 +4,27 @@
 package ru.mng.thepointofnoreturn.init;
 
 import ru.mng.thepointofnoreturn.item.ZincIngotItem;
+import ru.mng.thepointofnoreturn.item.WireItem;
+import ru.mng.thepointofnoreturn.item.WhiskItem;
 import ru.mng.thepointofnoreturn.item.WaterBottleItem;
 import ru.mng.thepointofnoreturn.item.TomatoSeedsItem;
 import ru.mng.thepointofnoreturn.item.TomateSoupItem;
 import ru.mng.thepointofnoreturn.item.StringItem;
 import ru.mng.thepointofnoreturn.item.StoneItem;
+import ru.mng.thepointofnoreturn.item.SteelWirecoilItem;
+import ru.mng.thepointofnoreturn.item.SteelNuggetItem;
 import ru.mng.thepointofnoreturn.item.SteelIngotItem;
 import ru.mng.thepointofnoreturn.item.SteelComponentItem;
 import ru.mng.thepointofnoreturn.item.SilverIngotItem;
 import ru.mng.thepointofnoreturn.item.RotItem;
+import ru.mng.thepointofnoreturn.item.RedstoneWirecoilItem;
 import ru.mng.thepointofnoreturn.item.PlanksItem;
 import ru.mng.thepointofnoreturn.item.NickelIngotItem;
 import ru.mng.thepointofnoreturn.item.MetalNuggetLeadItem;
 import ru.mng.thepointofnoreturn.item.MaterialComponentElectronicItem;
 import ru.mng.thepointofnoreturn.item.LeadIngotItem;
 import ru.mng.thepointofnoreturn.item.LatchkeyItem;
+import ru.mng.thepointofnoreturn.item.IronWirecoilItem;
 import ru.mng.thepointofnoreturn.item.IronWireItem;
 import ru.mng.thepointofnoreturn.item.IronKnifeItem;
 import ru.mng.thepointofnoreturn.item.HempFiberItem;
@@ -31,8 +37,11 @@ import ru.mng.thepointofnoreturn.item.FriedRiceItem;
 import ru.mng.thepointofnoreturn.item.FriedEggItem;
 import ru.mng.thepointofnoreturn.item.FilterItem;
 import ru.mng.thepointofnoreturn.item.ExperienceNuggetItem;
+import ru.mng.thepointofnoreturn.item.ElectrumWirecoilItem;
+import ru.mng.thepointofnoreturn.item.ElectrumNiggetItem;
 import ru.mng.thepointofnoreturn.item.ElectrumIngotItem;
 import ru.mng.thepointofnoreturn.item.ElectronTubeItem;
+import ru.mng.thepointofnoreturn.item.CopperWirecoilItem;
 import ru.mng.thepointofnoreturn.item.CopperWireItem;
 import ru.mng.thepointofnoreturn.item.CopperSpiralItem;
 import ru.mng.thepointofnoreturn.item.CoockedRiceItem;
@@ -113,6 +122,15 @@ public class ThePointOfNoreturnModItems {
 	public static final DeferredItem<Item> ELECTRUM_INGOT = register("electrum_ingot", ElectrumIngotItem::new);
 	public static final DeferredItem<Item> LEAD_INGOT = register("lead_ingot", LeadIngotItem::new);
 	public static final DeferredItem<Item> NICKEL_INGOT = register("nickel_ingot", NickelIngotItem::new);
+	public static final DeferredItem<Item> ELECTRUM_NIGGET = register("electrum_nigget", ElectrumNiggetItem::new);
+	public static final DeferredItem<Item> STEEL_NUGGET = register("steel_nugget", SteelNuggetItem::new);
+	public static final DeferredItem<Item> WHISK = register("whisk", WhiskItem::new);
+	public static final DeferredItem<Item> WIRE = register("wire", WireItem::new);
+	public static final DeferredItem<Item> STEEL_WIRECOIL = register("steel_wirecoil", SteelWirecoilItem::new);
+	public static final DeferredItem<Item> IRON_WIRECOIL = register("iron_wirecoil", IronWirecoilItem::new);
+	public static final DeferredItem<Item> REDSTONE_WIRECOIL = register("redstone_wirecoil", RedstoneWirecoilItem::new);
+	public static final DeferredItem<Item> COPPER_WIRECOIL = register("copper_wirecoil", CopperWirecoilItem::new);
+	public static final DeferredItem<Item> ELECTRUM_WIRECOIL = register("electrum_wirecoil", ElectrumWirecoilItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

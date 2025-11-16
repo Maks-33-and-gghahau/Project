@@ -1,5 +1,6 @@
 package ru.mng.thepointofnoreturn;
 
+import ru.mng.thepointofnoreturn.network.ThePointOfNoreturnModVariables;
 import ru.mng.thepointofnoreturn.init.ThePointOfNoreturnModTabs;
 import ru.mng.thepointofnoreturn.init.ThePointOfNoreturnModMenus;
 import ru.mng.thepointofnoreturn.init.ThePointOfNoreturnModItems;
@@ -47,6 +48,7 @@ public class ThePointOfNoreturnMod {
 		ThePointOfNoreturnModItems.REGISTRY.register(modEventBus);
 
 		ThePointOfNoreturnModTabs.REGISTRY.register(modEventBus);
+		ThePointOfNoreturnModVariables.ATTACHMENT_TYPES.register(modEventBus);
 
 		ThePointOfNoreturnModMenus.REGISTRY.register(modEventBus);
 

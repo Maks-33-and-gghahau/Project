@@ -54,5 +54,15 @@
   "item.the_point_of_noreturn.constantan_ingot": "Constantan Ingot",
   "item.the_point_of_noreturn.electrum_ingot": "Electrum Ingot",
   "item.the_point_of_noreturn.lead_ingot": "Lead Ingot",
-  "item.the_point_of_noreturn.nickel_ingot": "Nickel Ingot"
+  "item.the_point_of_noreturn.nickel_ingot": "Nickel Ingot",
+  "item.the_point_of_noreturn.electrum_nigget": "Electrum Nigget",
+  "item.the_point_of_noreturn.steel_nugget": "Steel Nugget",
+  "item.the_point_of_noreturn.whisk": "Whisk",
+  "item.the_point_of_noreturn.wire": "Wire",
+  "item.the_point_of_noreturn.steel_wirecoil": "Steel Wirecoil",
+  "item.the_point_of_noreturn.iron_wirecoil": "Iron Wirecoil",
+  "item.the_point_of_noreturn.redstone_wirecoil": "Redstone Wirecoil",
+  "item.the_point_of_noreturn.copper_wirecoil": "Copper Wirecoil",
+  "item.the_point_of_noreturn.electrum_wirecoil": "Electrum Wirecoil",
+  "gui.the_point_of_noreturn.exp_on_display.label_poka_nie_idiet_zapis_opyta": "W.I.P"
 }

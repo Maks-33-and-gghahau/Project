@@ -441,7 +441,7 @@
           "src/main/java/ru/mng/thepointofnoreturn/item/MetalNuggetLeadItem.java"
         ]
       },
-      "path": "~/Item"
+      "path": "~/Item/Material/Metal"
     },
     {
       "name": "CopperWire",
@@ -937,9 +937,163 @@
         ]
       },
       "path": "~/Item/Material/Metal"
+    },
+    {
+      "name": "ElectrumNigget",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrum_nigget",
+      "metadata": {
+        "files": [
+          "src/main/java/ru/mng/thepointofnoreturn/item/ElectrumNiggetItem.java",
+          "src/main/resources/assets/the_point_of_noreturn/models/item/electrum_nigget.json",
+          "src/main/resources/assets/the_point_of_noreturn/items/electrum_nigget.json"
+        ]
+      },
+      "path": "~/Item/Material/Metal"
+    },
+    {
+      "name": "SteelNugget",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_nugget",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_point_of_noreturn/models/item/steel_nugget.json",
+          "src/main/java/ru/mng/thepointofnoreturn/item/SteelNuggetItem.java",
+          "src/main/resources/assets/the_point_of_noreturn/items/steel_nugget.json"
+        ]
+      },
+      "path": "~/Item/Material/Metal"
+    },
+    {
+      "name": "Whisk",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whisk",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_point_of_noreturn/items/whisk.json",
+          "src/main/java/ru/mng/thepointofnoreturn/item/WhiskItem.java",
+          "src/main/resources/assets/the_point_of_noreturn/models/item/whisk.json"
+        ]
+      },
+      "path": "~/Item/Material"
+    },
+    {
+      "name": "Wire",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wire",
+      "metadata": {
+        "files": [
+          "src/main/java/ru/mng/thepointofnoreturn/item/WireItem.java",
+          "src/main/resources/assets/the_point_of_noreturn/items/wire.json",
+          "src/main/resources/assets/the_point_of_noreturn/models/item/wire.json"
+        ]
+      },
+      "path": "~/Item/Material"
+    },
+    {
+      "name": "SteelWirecoil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_wirecoil",
+      "metadata": {
+        "files": [
+          "src/main/java/ru/mng/thepointofnoreturn/item/SteelWirecoilItem.java",
+          "src/main/resources/assets/the_point_of_noreturn/items/steel_wirecoil.json",
+          "src/main/resources/assets/the_point_of_noreturn/models/item/steel_wirecoil.json"
+        ]
+      },
+      "path": "~/Item/Material"
+    },
+    {
+      "name": "IronWirecoil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_wirecoil",
+      "metadata": {
+        "files": [
+          "src/main/java/ru/mng/thepointofnoreturn/item/IronWirecoilItem.java",
+          "src/main/resources/assets/the_point_of_noreturn/items/iron_wirecoil.json",
+          "src/main/resources/assets/the_point_of_noreturn/models/item/iron_wirecoil.json"
+        ]
+      },
+      "path": "~/Item/Material"
+    },
+    {
+      "name": "RedstoneWirecoil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_wirecoil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_point_of_noreturn/items/redstone_wirecoil.json",
+          "src/main/java/ru/mng/thepointofnoreturn/item/RedstoneWirecoilItem.java",
+          "src/main/resources/assets/the_point_of_noreturn/models/item/redstone_wirecoil.json"
+        ]
+      },
+      "path": "~/Item/Material"
+    },
+    {
+      "name": "CopperWirecoil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_wirecoil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_point_of_noreturn/models/item/copper_wirecoil.json",
+          "src/main/java/ru/mng/thepointofnoreturn/item/CopperWirecoilItem.java",
+          "src/main/resources/assets/the_point_of_noreturn/items/copper_wirecoil.json"
+        ]
+      },
+      "path": "~/Item/Material"
+    },
+    {
+      "name": "ElectrumWirecoil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrum_wirecoil",
+      "metadata": {
+        "files": [
+          "src/main/java/ru/mng/thepointofnoreturn/item/ElectrumWirecoilItem.java",
+          "src/main/resources/assets/the_point_of_noreturn/items/electrum_wirecoil.json",
+          "src/main/resources/assets/the_point_of_noreturn/models/item/electrum_wirecoil.json"
+        ]
+      },
+      "path": "~/Item/Material"
+    },
+    {
+      "name": "ExpOnDisplay",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exp_on_display",
+      "metadata": {
+        "files": [
+          "src/main/java/ru/mng/thepointofnoreturn/client/screens/ExpOnDisplayOverlay.java"
+        ]
+      }
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "oput",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    }
+  ],
   "sound_elements": [],
   "tag_elements": {
     "ITEMS:neoforge:common_item": [
@@ -1038,12 +1192,23 @@
       "item.the_point_of_noreturn.constantan_ingot": "Constantan Ingot",
       "item.the_point_of_noreturn.electrum_ingot": "Electrum Ingot",
       "item.the_point_of_noreturn.lead_ingot": "Lead Ingot",
-      "item.the_point_of_noreturn.nickel_ingot": "Nickel Ingot"
+      "item.the_point_of_noreturn.nickel_ingot": "Nickel Ingot",
+      "item.the_point_of_noreturn.electrum_nigget": "Electrum Nigget",
+      "item.the_point_of_noreturn.steel_nugget": "Steel Nugget",
+      "item.the_point_of_noreturn.whisk": "Whisk",
+      "item.the_point_of_noreturn.wire": "Wire",
+      "item.the_point_of_noreturn.steel_wirecoil": "Steel Wirecoil",
+      "item.the_point_of_noreturn.iron_wirecoil": "Iron Wirecoil",
+      "item.the_point_of_noreturn.redstone_wirecoil": "Redstone Wirecoil",
+      "item.the_point_of_noreturn.copper_wirecoil": "Copper Wirecoil",
+      "item.the_point_of_noreturn.electrum_wirecoil": "Electrum Wirecoil",
+      "gui.the_point_of_noreturn.exp_on_display.label_poka_nie_idiet_zapis_opyta": "W.I.P"
     }
   },
   "metadata": {
     "files": [
       "src/main/java/ru/mng/thepointofnoreturn/ThePointOfNoreturnMod.java",
+      "src/main/java/ru/mng/thepointofnoreturn/network/ThePointOfNoreturnModVariables.java",
       "src/main/java/ru/mng/thepointofnoreturn/init/ThePointOfNoreturnModTabs.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/resources/pack.mcmeta",
