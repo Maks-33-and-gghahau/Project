@@ -32,6 +32,7 @@ public class ThePointOfNoreturnModTabs {
 			tabData.accept(ThePointOfNoreturnModItems.BAT.get());
 			tabData.accept(ThePointOfNoreturnModItems.BAT_SPICES.get());
 			tabData.accept(ThePointOfNoreturnModItems.IRON_KNIFE.get());
+			tabData.accept(ThePointOfNoreturnModItems.ONE_SHOT.get());
 		}
 	}
 }

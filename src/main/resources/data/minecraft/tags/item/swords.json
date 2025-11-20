@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "the_point_of_noreturn:bat_spices",
-    "the_point_of_noreturn:bat"
+    "the_point_of_noreturn:bat",
+    "the_point_of_noreturn:one_shot"
   ]
 }

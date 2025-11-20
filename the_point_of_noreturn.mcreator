@@ -831,6 +831,21 @@
         ]
       },
       "path": "~/Item/Material"
+    },
+    {
+      "name": "OneShot",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "one_shot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_point_of_noreturn/items/one_shot.json",
+          "src/main/java/ru/mng/thepointofnoreturn/item/OneShotItem.java",
+          "src/main/resources/assets/the_point_of_noreturn/models/item/one_shot.json"
+        ]
+      },
+      "path": "~/New/Block"
     }
   ],
   "variable_elements": [],
@@ -865,6 +880,7 @@
       "~CUSTOM:IronKnife"
     ],
     "ITEMS:minecraft:swords": [
+      "~CUSTOM:OneShot",
       "~CUSTOM:Bat",
       "~CUSTOM:BatSpices"
     ]
@@ -920,17 +936,18 @@
       "item.the_point_of_noreturn.iron_knife": "Iron Knife",
       "item.the_point_of_noreturn.latchkey": "Latchkey",
       "item.the_point_of_noreturn.material_component_electronic": "Material Component Electronic",
-      "item.the_point_of_noreturn.steel_component": "Steel Component"
+      "item.the_point_of_noreturn.steel_component": "Steel Component",
+      "item.the_point_of_noreturn.one_shot": "One Shot"
     }
   },
   "metadata": {
     "files": [
-      "src/main/java/ru/mng/thepointofnoreturn/ThePointOfNoreturnMod.java",
-      "src/main/java/ru/mng/thepointofnoreturn/init/ThePointOfNoreturnModTabs.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/ru/mng/thepointofnoreturn/init/ThePointOfNoreturnModTabs.java",
+      "src/main/java/ru/mng/thepointofnoreturn/ThePointOfNoreturnMod.java",
       "src/main/resources/pack.mcmeta",
-      "src/main/java/ru/mng/thepointofnoreturn/init/ThePointOfNoreturnModScreens.java",
       "src/main/java/ru/mng/thepointofnoreturn/network/MenuStateUpdateMessage.java",
+      "src/main/java/ru/mng/thepointofnoreturn/init/ThePointOfNoreturnModScreens.java",
       "src/main/java/ru/mng/thepointofnoreturn/init/ThePointOfNoreturnModMenus.java",
       "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
       "src/main/java/ru/mng/thepointofnoreturn/init/ThePointOfNoreturnModBlocks.java",
